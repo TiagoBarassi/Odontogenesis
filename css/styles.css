@@ -10,9 +10,13 @@
     display: inline-block;
     color: rgb(46, 43, 57);
 }
+.info {
+    margin-left: 5px;
+}
 footer{
     text-align: center;
     margin: 30px;
+    background-color: #137e9d;
 }
 .menuP {
     margin: 10px;
@@ -28,7 +32,7 @@ footer{
     font-size: 1.3rem;
     color: #137e9d;
 }
-.link:hover {
+.aMenu:hover {
     color: rgb(46, 43, 57);
 }
 .titulo {
@@ -52,7 +56,6 @@ footer{
 .logoTratamientos {
     color: rgb(46, 43, 57);
     font-size: large;
-    
     display: inline-block;
 }
 .tratamientos{
@@ -80,55 +83,19 @@ footer{
     height: 20rem;
     border-radius: 10px;
     margin: 10px;
-    grid-area: iframe;
-}
-.info {
-    grid-area: info;
-}
-.info2 {
-    grid-area: info2;
 }
 .iconos {
     display: inline-block;
     font-size: large;
     color: rgb(46, 43, 57);
 }
-.gridIndex {
-	display: grid;
-	grid-template-columns: repeat (3fr);
-	grid-template-rows: repeat (3fr);
-	grid-template-areas: 
-			 "logo header header"
-			 "main main main"
-             "footer footer footer";
-}
-.headerIndex {
-    grid-area: header;
-}
 .logoGrid {
     height: 5rem;
-    grid-area: logo;
-}
-.mainIndex {
-    grid-area: main;
-}
-.preguntas {
-    display: flex;
-    flex-direction: row;
 }
 .fotoConsultorio {
     height: 30rem;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: #137e9d;
+    border-radius: 30px;
     margin: 10px;
-    flex-direction: column;
-}
-.pregunta {
-    flex-direction: column;
-}
-.footerIndex {
-    grid-area: footer;
 }
 .sonrisaIndex {
     color: rgb(46, 43, 57);
@@ -143,8 +110,6 @@ footer{
 }
 .caroussel {
     border-radius: 5px;
-    border-style: solid;
-    border-color: #137e9d;
 }
 .equipoLogo {
     padding: 5px;
@@ -234,6 +199,7 @@ footer{
 @media (max-width: 1024px) {
     .caroussel {
       height: 300px;
+      border-radius: 10px;
     }
     .fotoConsultorio {
         height: 300px;

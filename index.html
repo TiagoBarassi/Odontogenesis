@@ -11,50 +11,79 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/abe6c05fa9.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Odontogenesis</title>
 </head>
-<body class="gridIndex"> 
-    <img src="assets/logo.png" alt="logo Odontogenesis" class="logoGrid">   
-    <header class="headerIndex">        
-        <nav>
-            <ul class="nav justify-content-end menuP">
-                <li class="nav-item linksMenu">
-                  <a class="aMenu" href="index.html">Inicio</a>
+<body class="container-fluid">
+    <header class="row">
+      <div class="col-4">
+        <a class="aMenu" href="index.html"><img src="assets/logo.png" alt="logo Odontogenesis" class="logoGrid"></a>
+      </div>        
+      <nav class="col-8">
+          <ul class="nav menuP">
+              <li class="nav-item linksMenu">
+                <a class="aMenu" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item linksMenu">
+                <a class="aMenu" href="tratamientos.html">Tratamientos</a>
+              </li>
+              <li class="nav-item linksMenu">
+                <a class="aMenu" href="consultorio.html">Consultorio</a>
+              </li>
+              <li class="nav-item linksMenu">
+                <a class="aMenu" href="equipo.html">Nuestro Equipo</a>
+              </li>
+              <li class="nav-item linksMenu">
+                  <a class="aMenu" href="contacto.html">Contacto</a>
                 </li>
-                <li class="nav-item linksMenu">
-                  <a class="aMenu" href="tratamientos.html">Tratamientos</a>
-                </li>
-                <li class="nav-item linksMenu">
-                  <a class="aMenu" href="consultorio.html">Consultorio</a>
-                </li>
-                <li class="nav-item linksMenu">
-                  <a class="aMenu" href="equipo.html">Nuestro Equipo</a>
-                </li>
-                <li class="nav-item linksMenu">
-                    <a class="aMenu" href="contacto.html">Contacto</a>
-                  </li>
-              </ul>               
-        </nav>     
-    </header>      
-    <main class="mainIndex container">
-        <div class="row">
-            <div class="tituloHead col">    
-                <img src="assets/carousel.jpg" alt="caroussel" class="caroussel"> 
-                <p class="sonrisaIndex">Una sonrisa saludable, <span class="importante">lo más importante</span></p> 
-              </div>        
-              <section class="preguntas">
-                  <div class="pregunta">
-                      <i class="iconos fa-solid fa-circle-question"></i><h2 class="subtitulo">¿Quienes somos?</h2>
-                      <p>Somos un equipo multidisciplinario de Odontólogos y una Médica especialista en estética facial. Con más de 25 años de experiencia estamos altamente calificados para devolver la función dental y estética orofacial. Trabajamos con los mejores laboratorios y materiales dentales, tanto de Argentina como de Estados Unidos. Estamos convencidos de tener a disposición las mejores herramientas para lograr tu mejor sonrisa.</p>                   
-                      <i class="iconos fa-solid fa-circle-question"></i><h2 class="subtitulo">¿Que hacemos?</h2>
-                      <p>Nuestros tratamientos se ajustan a las necesidades funcionales y estéticas de cada paciente. Una hermosa sonrisa nos imprime confianza y potencia nuestras habilidades sociales. Es por ello que ofrecemos tratamientos integrales que abarcan todas las especialidades odontológicas, así como aquellas vinculadas a mejorar la estética facial.</p>
-                  </div>
-                  <img class="fotoConsultorio" src="assets/consultorio.jpg" alt="Consultorio">
-              </section>
-        </div>
-    </main>
-    <footer class="footerIndex">
-        <p>Odontogenesis 2022, todos los derechos reservados.</p>
-    </footer>
+            </ul>               
+      </nav>     
+  </header>      
+  <main class="mainIndex row">
+      <div class="row">
+        <div class="col-12">
+          <div class="tituloHead">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="assets/familiaSonriendo.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/familiaSonriendo2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/familiaSonriendo3.jpg" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <p class="sonrisaIndex">Una sonrisa saludable, <span class="importante">lo más importante</span></p> 
+          </div>    
+        </div>                   
+      </div>        
+            <section class="row">
+                <div class="col info">
+                    <i class="iconos fa-solid fa-circle-question"></i><h2 class="subtitulo">¿Quienes somos?</h2>
+                    <p>Somos un equipo multidisciplinario de odontólogos. Con más de 25 años de experiencia estamos altamente calificados para devolver la función dental y estética orofacial. Trabajamos con los mejores laboratorios y materiales dentales, tanto de Argentina como de Estados Unidos. Estamos convencidos de tener a disposición las mejores herramientas para lograr tu mejor sonrisa.</p>                   
+                    <i class="iconos fa-solid fa-circle-question"></i><h2 class="subtitulo">¿Que hacemos?</h2>
+                    <p>Nuestros tratamientos se ajustan a las necesidades funcionales y estéticas de cada paciente. Una hermosa sonrisa nos imprime confianza y potencia nuestras habilidades sociales. Es por ello que ofrecemos tratamientos integrales que abarcan todas las especialidades odontológicas, así como aquellas vinculadas a mejorar la estética facial.</p>
+                </div>
+                <div class="col">
+                  <img class="fotoConsultorio col" src="assets/consultorio.jpg" alt="Consultorio">
+                </div>               
+            </section>
+      </div>
+  </main>
+  <footer class="footer row">
+      <p>Odontogenesis 2022, todos los derechos reservados.</p>
+  </footer>     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
