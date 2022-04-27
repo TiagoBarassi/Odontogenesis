@@ -1,0 +1,22 @@
+.tituloTratamiento {
+    display: inline-block;
+    color: rgb(46, 43, 57);
+}
+.logoTratamientos {
+    color: rgb(46, 43, 57);
+    font-size: large;
+    display: inline-block;
+}
+.tratamientos{
+    list-style-type: none;
+    margin: 10px;
+}
+.tratamiento{
+    font-weight: 400;
+    font-style: italic;
+    margin: 10px;
+}
+.fotoTratamiento {
+    height: 15rem;
+    border-radius: 5px;
+}

@@ -1,205 +1,200 @@
-*{
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-}
-.iconoFr {
-    text-align: right;
-}
-.somosO{
-    display: inline-block;
-    color: rgb(46, 43, 57);
-}
 .info {
-    margin-left: 5px;
-}
-.footerGeneral{
-    margin-top: 20px !important;
-}
-.menuP {
-    margin: 10px;
-    list-style-type: none;
-}
-.linksMenu{
-    display: inline-block;
-    padding: 10px;
-}
-.aMenu {
-    font-family: "Montserrat", sans-serif;
-    text-decoration: none;
-    font-size: 1.3rem;
-    color: #137e9d;
-}
-.aMenu:hover {
-    color: rgb(46, 43, 57);
-}
-.titulo {
-    margin-top: 30px;
-    text-align: center;
-}
-.subtitulo {
-    display: inline-block;
-    margin: 10px;
-    font-weight: 600;
-    color: rgb(46, 43, 57)
-}
+  margin-left: 5px; }
+
 .tituloHead {
-    text-align: center;
-    margin: 30px;
-}
-.tituloTratamiento {
-    display: inline-block;
-    color: rgb(46, 43, 57);
-}
-.logoTratamientos {
-    color: rgb(46, 43, 57);
-    font-size: large;
-    display: inline-block;
-}
-.tratamientos{
-    list-style-type: none;
-    margin: 10px;
-}
-.tratamiento{
-    font-weight: 400;
-    font-style: italic;
-    margin: 10px;
-}
-.fotoTratamiento {
-    height: 15rem;
-    border-radius: 5px;
-}
-.fotosDoctoras {
-    height: 15rem;
-    margin: 5px;
-    border-style: solid;
-    border-width: 3px;
-    color: rgb(46, 43, 57)
-}
-.iframeConsultorio {
-    width: 45rem;
-    height: 20rem;
-    border-radius: 10px;
-    margin: 10px;
-}
-.iconos {
-    display: inline-block;
-    font-size: large;
-    color: rgb(46, 43, 57);
-}
-.logoGrid {
-    height: 5rem;
-}
-.fotoConsultorio {
-    height: 30rem;
-    border-radius: 30px;
-    margin: 10px;
-}
-.sonrisaIndex {
-    color: rgb(46, 43, 57);
-    margin-top: 4px;
-    margin-bottom: 4px;
-    font-size: large;
-    font-weight: 500;
-    text-align: center;
-}
+  text-align: center;
+  margin: 30px; }
+
 .importante {
-    font-weight: 700;
-}
+  font-weight: 700; }
+
 .caroussel {
-    border-radius: 5px;
-}
+  border-radius: 5px; }
+
+.sonrisaIndex {
+  color: #2e2b39;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: large;
+  font-weight: 500;
+  text-align: center; }
+
+.tituloTratamiento {
+  display: inline-block;
+  color: #2e2b39; }
+
+.logoTratamientos {
+  color: #2e2b39;
+  font-size: large;
+  display: inline-block; }
+
+.tratamientos {
+  list-style-type: none;
+  margin: 10px; }
+
+.tratamiento {
+  font-weight: 400;
+  font-style: italic;
+  margin: 10px; }
+
+.fotoTratamiento {
+  height: 15rem;
+  border-radius: 5px; }
+
+.fotosDoctoras {
+  height: 15rem;
+  margin: 5px;
+  border-style: solid;
+  border-width: 3px;
+  color: #2e2b39; }
+
 .equipoLogo {
-    padding: 5px;
-    font-size: x-large;
-    display: inline-block;
-    color:rgb(46, 43, 57);
-}
+  padding: 5px;
+  font-size: x-large;
+  display: inline-block;
+  color: #2e2b39; }
+
 .equipo {
-    color: rgb(46, 43, 57);
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    display: inline-block;
-}
+  color: #2e2b39;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  display: inline-block; }
+
+.iframeConsultorio {
+  width: 45rem;
+  height: 20rem;
+  border-radius: 10px;
+  margin: 10px; }
+
+.fotoConsultorio {
+  height: 30rem;
+  border-radius: 30px;
+  margin: 10px; }
+
 .textoContacto {
-    text-align: left;
-    font-weight: 400;
-    
-}
+  text-align: left;
+  font-weight: 400; }
+
 /*Form*/
-.form{
-    width:40rem;
-    height:20rem;
-    background:#e6e6e6;
-    border-radius:8px;
-    box-shadow:0 0 40px -10px #000;
-    margin:5rem auto;
-    padding:20px 30px;
-    max-width:calc(100vw - 40px);
-    box-sizing:border-box;
-    position:relative
-}
+.form {
+  width: 40rem;
+  height: 20rem;
+  background: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: 5rem auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  position: relative; }
+
 .formH2 {
-    margin:10px 0;
-    padding-bottom:10px;
-    width:180px;
-    color:#78788c;
-    border-bottom:3px solid #78788c
-}
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: #78788c;
+  border-bottom: 3px solid #78788c; }
+
 .formInput {
-    width:100%;
-    padding:10px;
-    box-sizing:border-box;
-    background:none;
-    outline:none;
-    resize:none;
-    border:0;
-    transition:all .3s;
-    border-bottom:2px solid #bebed2
-}
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  transition: all .3s;
+  border-bottom: 2px solid #bebed2; }
+
 .formInput:focus {
-    border-bottom:2px solid #78788c
-}
+  border-bottom: 2px solid #78788c; }
+
 .formP:before {
-    content:attr(type);
-    display:block;
-    margin:28px 0 0;
-    font-size:14px;
-    color:#5a5a5a
-}
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #5a5a5a; }
+
 .formButton {
-    float:right;
-    padding:8px 12px;
-    margin:8px 0 0;
-    border:2px solid #78788c;
-    background:0;
-    color:#5a5a6e;
-    cursor:pointer;
-    transition:all .3s
-}
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  border: 2px solid #78788c;
+  background: 0;
+  color: #5a5a6e;
+  cursor: pointer;
+  transition: all .3s; }
+
 .formButton:hover {
-    background:#78788c;
-    color:#fff
-}
+  background: #78788c;
+  color: #fff; }
+
 .formDiv {
-    content:'Hi';
-    position:absolute;
-    bottom:-15px;
-    right:-20px;
-    background:#50505a;
-    color:#fff;
-    width:320px;
-    padding:16px 4px 16px 0;
-    border-radius:6px;
-    font-size:13px;
-    box-shadow:10px 10px 40px -14px #000
-}
+  content: 'Hi';
+  position: absolute;
+  bottom: -15px;
+  right: -20px;
+  background: #50505a;
+  color: #fff;
+  width: 320px;
+  padding: 16px 4px 16px 0;
+  border-radius: 6px;
+  font-size: 13px;
+  box-shadow: 10px 10px 40px -14px #000; }
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box; }
+
+.aMenu {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #137e9d; }
+  .aMenu:hover {
+    color: #2e2b39; }
+
+.logo {
+  height: 5rem; }
+
+.menuP {
+  margin: 10px;
+  list-style-type: none; }
+
+.iconoFr {
+  text-align: right; }
+
+.somosO {
+  display: inline-block;
+  color: #2e2b39; }
+
+.footerGeneral {
+  margin-top: 20px !important; }
+
+.linksMenu {
+  display: inline-block;
+  padding: 10px; }
+
+.titulo {
+  margin-top: 30px;
+  text-align: center; }
+
+.subtitulo {
+  display: inline-block;
+  margin: 10px;
+  font-weight: 600;
+  color: #2e2b39; }
+
+.iconos {
+  display: inline-block;
+  font-size: large;
+  color: #2e2b39; }
+
 @media (max-width: 1024px) {
-    .caroussel {
-      height: 300px;
-      border-radius: 10px;
-    }
-    .fotoConsultorio {
-        height: 300px;
-    }
-  }
+  .caroussel {
+    height: 300px;
+    border-radius: 10px; }
+  .fotoConsultorio {
+    height: 300px; } }
