@@ -1,3 +1,9 @@
+@mixin textos($color, $font-weight, $display, $font-family) {
+    color: $color;
+    font-weight: $font-weight;
+    display: $display;
+    font-family: $font-family;
+}
 .fotosDoctoras {
     height: 15rem;
     margin: 5px;
@@ -12,8 +18,8 @@
     color:rgb(46, 43, 57);
 }
 .equipo {
-    color: rgb(46, 43, 57);
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    display: inline-block;
+    @include textos(rgb(46, 43, 57), 700, inline-block, "Montserrat")
+}
+.textoDoctoras {
+    @include textos(black, 400, inline-block, "Montserrat")
 }

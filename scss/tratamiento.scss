@@ -3,9 +3,8 @@
     color: rgb(46, 43, 57);
 }
 .logoTratamientos {
-    color: rgb(46, 43, 57);
+    @extend .tituloTratamiento;
     font-size: large;
-    display: inline-block;
 }
 .tratamientos{
     list-style-type: none;
