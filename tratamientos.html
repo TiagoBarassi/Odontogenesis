@@ -5,94 +5,207 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="assets/logo.png">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/abe6c05fa9.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/abe6c05fa9.js" crossorigin="anonymous"></script>
     <title>Tratamientos</title>
 </head>
 <body class="container-fluid">
-    <header class="row">
-        <div class="col-4">
-          <a class="aMenu" href="index.html"><img src="assets/logo.png" alt="logo Odontogenesis" class="logoGrid"></a>
-        </div>        
-        <nav class="col-8">
-            <ul class="nav menuP">
-                <li class="nav-item linksMenu">
-                  <a class="aMenu" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item linksMenu">
-                  <a class="aMenu" href="tratamientos.html">Tratamientos</a>
-                </li>
-                <li class="nav-item linksMenu">
-                  <a class="aMenu" href="consultorio.html">Consultorio</a>
-                </li>
-                <li class="nav-item linksMenu">
-                  <a class="aMenu" href="equipo.html">Nuestro Equipo</a>
-                </li>
-                <li class="nav-item linksMenu">
-                    <a class="aMenu" href="contacto.html">Contacto</a>
-                  </li>
-              </ul>               
-        </nav>     
-    </header>
+  <header class="row justify-content-center">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <div class="container justify-content-center">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="assets/logo.png" alt="logo Odontogenesis" class="logo"> <p class="logoTexto">Odontogenesis</p>
+        </button>
+        <img src="assets/logo.png" alt="logo Odontogenesis" class="logoBigResolution"> 
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">           
+          <div class="navbar-nav">
+            <a class="aMenu" href="index.html">Inicio</a>
+            <a class="aMenu" href="tratamientos.html">Tratamientos</a>
+            <a class="aMenu" href="equipo.html">Nuestro Equipo</a>
+            <a class="aMenu" href="consultorio.html">Consultorio</a>
+            <a class="aMenu" href="contacto.html">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </nav> 
+</header>
     <main class="mainIndex">
         <section class="container">
             <div class="tituloHead row">
                 <div class="col">
                     <i class="logoTratamientos fa-solid fa-book-medical"></i>
-                    <h1 class="tituloTratamiento">Nuestros tratamientos</h1>
+                    <h1 class="tituloPaginaTratamiento">Nuestros tratamientos</h1>
                 </div>                
-            </div>
+            </div>            
             <div class="row">
-                <div class="col-4">
-                    <h2>Implantes Dentales</h2>
-                    <img src="assets/implantes.jpg" alt="Implantes Dentales" class="fotoTratamiento">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi, cum reprehenderit aperiam quae non</p>
-                </div>
-                <div class="col-4">
-                    <h2>Coronas</h2>
-                    <img src="assets/Coronas.jpg" alt="Coronas" class="fotoTratamiento">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi, cum reprehenderit aperiam quae non</p>
-                </div>
-                <div class="col-4">
-                    <h2>Protesis Removibles</h2>
-                    <img src="assets/Protesis.jpg" alt="Protesis Removibles" class="fotoTratamiento">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi, cum reprehenderit aperiam quae non</p>
-                </div>
-                <div class="col-4">
-                    <h2>Carillas dentales</h2>
-                    <img src="assets/Carillas.jpg" alt="Carillas dentales" class="fotoTratamiento">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi, cum reprehenderit aperiam quae non</p>
-                </div>
-                <div class="col-4">
-                    <h2>Ortodoncia</h2>
-                    <img src="assets/Ortodoncia.jpg" alt="Ortodoncia" class="fotoTratamiento">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi, cum reprehenderit aperiam quae non</p>
-                </div>
-                <div class="col-4">
-                    <h2>Odontologia General</h2>
-                    <img src="assets/odontologiageneral.jpg" alt="Odontologia General" class="fotoTratamiento">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi, cum reprehenderit aperiam quae non</p>
-                </div>
-                <div class="col-4">
-                    <h2>Blanqueamiento</h2>
-                    <img src="assets/Blanqueamiento.jpg" alt="Blanqueamiento" class="fotoTratamiento">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi, cum reprehenderit aperiam quae non</p>
-                </div>
-                <div class="col-4">
-                    <h2>Escultura Labial</h2>
-                    <img src="assets/esculturalabial.jpg" alt="Escultura Labial" class="fotoTratamiento">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi, cum reprehenderit aperiam quae non</p>
-                </div>
-                <div class="col-4">
-                    <h2>Snap on Smile</h2>
-                    <img src="assets/smile.jpg" alt="Snap on Smile" class="fotoTratamiento">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi, cum reprehenderit aperiam quae non</p>
-                </div>
-            </div>
+              <ul class="cards col">
+                <li>
+                  <div class="card">
+                    <img src="assets/implantes.jpg" class="card__image fotoTratamiento" alt="Implantes Dentales" />
+                    <div class="card__overlay">
+                      <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <div class="card__header-text">
+                          <h3 class="card__title">Implantes Dentales</h3>            
+                        </div>
+                      </div>
+                      <div class="card__description textoDoctoras">
+                        <p>Con los implantes dentales se logra la reposición de las piezas dentarias perdidas de manera muy semejante a la natural; obteniendo el paciente mayor comodidad y mejor eficacia masticatoria.</p>
+                        <p>Utilizamos implantes dentales de primera marca, tanto nacionales como importados de USA. Los mismos acorde a las necesidades de cada caso.</p>
+                        <p>Nuestras cirugías se planifican con estudios tomográficos de los maxilares, de manera de lograr y conjugar la simpleza y eficacia del procedimiento.</p>
+                      </div>
+                    </div>
+                  </div>      
+                </li>
+                <li>
+                  <div class="card">
+                    <img src="assets/Coronas.jpg" class="card__image fotoTratamiento" alt="Coronas" />
+                    <div class="card__overlay">        
+                      <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <div class="card__header-text">
+                          <h3 class="card__title">Coronas</h3>
+                        </div>
+                      </div>
+                      <div class="card__description textoDoctoras">
+                        <p>Realizamos coronas de zirconio que son libres de metal, coronas de porcelana que se realizan en 72 horas y coronas metálico cerámica.</p>
+                        <p>Las de porcelana libre de metal, logran una excelente estética y una apariencia natural; sobre todo indicadas en el sector anterior de la boca.</p>
+                        <p>Las tradicionales coronas métalo-cerámicas son indicadas fundamentalmente para el sector posterior.</p>
+                        <p>Las coronas que se confeccionan en 72 horas se realizan con el uso de un escáner intraoral de última generación para así brindar una resolución estética y rápida en los casos en el que el paciente necesite una solución urgente (viaje, boda, festejos importantes, etc.).</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="card">
+                    <img src="assets/Protesis.jpg" class="card__image fotoTratamiento" alt="Protesis Removibles" />
+                    <div class="card__overlay">        
+                      <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <div class="card__header-text">
+                          <h3 class="card__title">Prótesis removibles</h3>
+                        </div>
+                      </div>
+                      <div class="card__description textoDoctoras">
+                        <p>Las prótesis removibles son las que el paciente saca de su boca a diario para su higiene y se indican cuando faltan varias piezas o todas las piezas dentarias. Se denominan prótesis parcial removible o prótesis completa.</p>
+                        <p>Los materiales con las que se confeccionan son: cromo-cobalto, acrílico flexible y acrílico rígido.</p>
+                        <ul>
+                          <li>Cromo-cobalto</li>
+                          <li>Acrílico flexible</li>
+                          <li>Acrílico rígido</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="card">
+                    <img src="assets/Carillas.jpg" class="card__image fotoTratamiento" alt="Carillas dentales" />
+                    <div class="card__overlay">        
+                      <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <div class="card__header-text">
+                          <h3 class="card__title">Carillas dentales</h3>
+                        </div>
+                      </div>
+                      <div class="card__description textoDoctoras">
+                        <p>Con las carillas podemos corregir defectos de alineación, color y forma de los dientes, logrando así una bella sonrisa.</p>
+                        <p>Nosotros utilizamos carillas importadas, con materiales que permiten ser tan delgados que se asemejan a un lente de contacto. El procedimiento se realiza sin anestesia, sin desgaste dentario (en la mayoría de los casos)y en dos sesiones.</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="card">
+                    <img src="assets/Ortodoncia.jpg" class="card__image fotoTratamiento" alt="Ortodoncia" />
+                    <div class="card__overlay">        
+                      <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <div class="card__header-text">
+                          <h3 class="card__title">Ortodoncia</h3>
+                        </div>
+                      </div>
+                      <div class="card__description textoDoctoras">
+                        <p>Nuestros tratamientos de ortodoncia se basan en lograr un correcto diagnóstico de la mal oclusión, y brindar así la mecánica del tratamiento adecuado para cada caso, logrando con este enfoque, resultados predecibles y estables en el tiempo que tienen como obetivo mejorar la estética y la función.</p>
+                        <p>También brindamos tratamientos con alineadores invisibles brackets, cerámicos (estéticos) y metálicos convencionales.</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="card">
+                    <img src="assets/odontologiageneral.jpg" class="card__image fotoTratamiento" alt="Odontologia General" />
+                    <div class="card__overlay">        
+                      <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <div class="card__header-text">
+                          <h3 class="card__title">Odontologia General</h3>
+                        </div>
+                      </div>
+                      <div class="card__description textoDoctoras">
+                        <p>Realizamos tratamientos integrales y conservadores, que incluyen especialistas en endodoncia, periodoncia, operatoria dental, odontopediatría y atención de adultos mayores.</p>
+                        <p>También confeccionamos placas de bruxismo y protectores bucales deportivos personalizados.</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="card">
+                    <img src="assets/Blanqueamiento.jpg" class="card__image fotoTratamiento" alt="Blanqueamiento" />
+                    <div class="card__overlay">        
+                      <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <div class="card__header-text">
+                          <h3 class="card__title">Blanqueamiento</h3>
+                        </div>
+                      </div>
+                      <div class="card__description textoDoctoras">
+                        <p>En una sesión de una hora en consultorio, o de manera ambulatoria, el paciente puede lograr aclarar su diente de manera simple e indolora; sin alterar la estructura del esmalte dental devolviéndole a la sonrisa un aspecto joven y saludable.</p>
+                        <p>El procedimiento se realiza mediante la aplicación de un gel en la superficie del esmalte, el mismo se activa con una luz especial para dicho procedimiento.</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="card">
+                    <img src="assets/esculturalabial.jpg" class="card__image fotoTratamiento" alt="Escultura Labial" />
+                    <div class="card__overlay">        
+                      <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <div class="card__header-text">
+                          <h3 class="card__title">Escultura Labial</h3>
+                        </div>
+                      </div>
+                      <div class="card__description textoDoctoras">
+                        <p>Escultura labial y diseño de la sonrisa con Ácido hialurónico. Devolvemos el volumen, contorno e hidratación a los labios pómulos peribucales, surcos nasogenianos, patas de gallo.</p>
+                        <p>Con una duración promedio del producto de nueve a 12 meses; se atenúan arrugas y surcos importantes.</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="card">
+                    <img src="assets/smile.jpg" class="card__image fotoTratamiento" alt="Snap on Smile" />
+                    <div class="card__overlay">        
+                      <div class="card__header">
+                        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                        <div class="card__header-text">
+                          <h3 class="card__title">Snap on Smile</h3>
+                        </div>
+                      </div>
+                      <div class="card__description textoDoctoras">
+                        <p>Tratamiento reversible que sin preparación ni desgaste dentario, ni dolor ni adhesivos, devuelve una sonrisa plena. Es un sistema que cubre todos los dientes del paciente, mejorando tonalidad y formato de los mismos.</p>
+                        <p>En tan sólo dos sesiones en donde se realiza un modelo, desde el laboratorio de Estados Unidos, nos envian esta revolucionaria férula removible.</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+        </div>
         </section>
     </main>
     <footer class="text-center text-white row footerGeneral" style="background-color: #137e9d;">

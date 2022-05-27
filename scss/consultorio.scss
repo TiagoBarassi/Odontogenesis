@@ -1,0 +1,36 @@
+.iframeConsultorio {
+    width: 45rem;
+    height: 20rem;
+    border-radius: 10px;
+    margin: 10px;
+}
+@media (max-width: 1024px) {
+    .iframeConsultorio {
+        width: 35rem;
+        height: 20rem;
+    }
+}
+@media (max-width: 768px) {
+    .iframeConsultorio {
+        width: 42rem;
+        height: 20rem;
+    }
+}
+@media (max-width: 425px) {
+    .iframeConsultorio {
+        width: 23rem;
+        height: 15rem;
+    } 
+}
+@media (max-width: 375px) {
+    .iframeConsultorio {
+        width: 20rem;
+        height: 15rem;
+    } 
+}
+@media (max-width: 320px) {
+    .iframeConsultorio {
+        width: 16rem;
+        height: 10rem;
+    } 
+}

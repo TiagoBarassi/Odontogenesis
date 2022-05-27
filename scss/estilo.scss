@@ -1,0 +1,89 @@
+$hoverLink: #2e2b39;
+
+@import "index";
+@import "tratamiento";
+@import "equipo";
+@import "consultorio";
+@import "contacto";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.aMenu {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #137e9d;
+    padding: 15px;
+       
+    &:hover {
+    color: $hoverLink;
+}
+}
+.logo {
+    height: 2.5rem;
+}
+.logoBigResolution {
+    height: 4.5rem;
+}
+.logoTexto {
+    font-family: "Montserrat", sans-serif;
+    color: #2e2b39;
+}
+.footerGeneral{
+    margin-top: 20px !important;
+}
+.footerAlto {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.subtitulo {
+    display: inline-block;
+    margin: 10px;
+    font-weight: 600;
+    color: $hoverLink;
+}
+.iconos {
+    display: inline-block;
+    font-size: large;
+    color: $hoverLink;
+}
+@media (max-width: 1024px) {
+    .aMenu{
+        font-size: 1.2rem;
+    }
+    .menuP {
+        margin: 0px;
+    }
+  }
+@media (max-width: 768px) {
+    .aMenu{
+        font-size: 1rem;
+    }
+    .logoBigResolution {
+        height: 4rem;
+    }
+}
+@media (max-width: 425px) {
+    .logoBigResolution{
+        display: none;
+    } 
+    .footerAlto {
+        width: 106%;
+        position: static;
+        bottom: 0;
+    }
+}
+@media (max-width: 375px) {
+    .footerAlto {
+        width: 106.7%;
+    }
+}
+@media (max-width: 320px) {
+    .footerAlto {
+        width: 108%;
+    }
+}

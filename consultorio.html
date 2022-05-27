@@ -5,54 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="assets/logo.png">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/abe6c05fa9.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/styles.css">
     <title>Consultorio</title>
 </head>
 <body class="container-fluid">
-    <header class="row">
-        <div class="col-4">
-          <a class="aMenu" href="index.html"><img src="assets/logo.png" alt="logo Odontogenesis" class="logoGrid"></a>
-        </div>        
-        <nav class="col-8">
-            <ul class="nav menuP">
-                <li class="nav-item linksMenu">
-                  <a class="aMenu" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item linksMenu">
-                  <a class="aMenu" href="tratamientos.html">Tratamientos</a>
-                </li>
-                <li class="nav-item linksMenu">
-                  <a class="aMenu" href="consultorio.html">Consultorio</a>
-                </li>
-                <li class="nav-item linksMenu">
-                  <a class="aMenu" href="equipo.html">Nuestro Equipo</a>
-                </li>
-                <li class="nav-item linksMenu">
-                    <a class="aMenu" href="contacto.html">Contacto</a>
-                  </li>
-              </ul>               
-        </nav>     
-    </header> 
+  <header class="row justify-content-center">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <div class="container justify-content-center">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="assets/logo.png" alt="logo Odontogenesis" class="logo"> <p class="logoTexto">Odontogenesis</p>
+        </button>
+        <img src="assets/logo.png" alt="logo Odontogenesis" class="logoBigResolution"> 
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">           
+          <div class="navbar-nav">
+            <a class="aMenu" href="index.html">Inicio</a>
+            <a class="aMenu" href="tratamientos.html">Tratamientos</a>
+            <a class="aMenu" href="equipo.html">Nuestro Equipo</a>
+            <a class="aMenu" href="consultorio.html">Consultorio</a>
+            <a class="aMenu" href="contacto.html">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </nav> 
+</header>
     <main class="mainIndex">
         <section class="container">
             <div class="tituloHead row">
                 <div class="col">
                     <i class="logoTratamientos fa-solid fa-briefcase-medical"></i>
-                    <h1 class="tituloTratamiento">Nuestro Consultorio</h1>
+                    <h1 class="tituloPaginaTratamiento">Nuestro Consultorio</h1>
                 </div>
             </div>
-            <div class="gridConsultorio row">                         
+            <div class="row">                         
                 <div class="justify-content-center col">
                     <div class="info">
-                        <p>Se encuentra ubicado en el barrio de Villa Crespo, a 4 cuadras del Parque Centenario.</p>
-                    </div>
-                    <div class="info2">
-                        <p>Horario de apertura: Lunes, Miércoles y Viernes de 9 a 19:30 hs. Sábados de 10 a 13 hs.</p>
+                      <p>Dirección:</p>
+                      <p>Sarmiento 4619 - C1197AAS, Ciudad Autonoma de Buenos Aires - Argentina</p>
+                      <p>Se encuentra ubicado en el barrio de Villa Crespo, a 4 cuadras del Parque Centenario.</p>
+                      <p>Horarios de apertura:</p>
+                      <ul>
+                        <li>Lunes, Miércoles y Viernes de 9 a 19:30 hs.</li>
+                        <li>Sábados de 10 a 13 hs.</li>
+                      </ul>
+                      <p>(Las cirugías y los tratamientos estéticos se atienden con turno previo).</p>
                     </div>
                 </div>
                 <div class="justify-content-center col">
@@ -61,7 +61,7 @@
             </div>
         </section>
     </main>
-    <footer class="text-center text-white row footerGeneral" style="background-color: #137e9d;">
+    <footer class="footerAlto text-center text-white row footerGeneral" style="background-color: #137e9d;">
         <div class="container pt-4">
           <section class="mb-4">
             <a
