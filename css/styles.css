@@ -87,6 +87,13 @@
   height: 15rem;
   border-radius: 5px; }
 
+.disclaimer {
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  display: none; }
+
 /*card*/
 :root {
   --surface-color: #fff;
@@ -149,8 +156,7 @@
   z-index: 1; }
 
 .card__arc path {
-  fill: var(--surface-color);
-  d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z"); }
+  fill: var(--surface-color); }
 
 .card:hover .card__header {
   transform: translateY(0); }
@@ -189,6 +195,10 @@
   -webkit-line-clamp: 3;
   overflow: scroll;
   overflow-x: hidden; }
+
+@media (max-width: 768px) {
+  .disclaimer {
+    display: inline; } }
 
 @media (max-width: 375px) {
   .fotoTratamiento {
